@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATRIX CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.0/math.js" integrity="sha512-bd8Oth+p1rTn+/iUFHsSozuYn7JpmH59vMWe6L+M3huScB/SMTXWkQoME3Ytk0sbGJ40VGp2mO2b8K8FNrewfQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <center>
+        <h1>MUHAMMAD SHARIQ SHAMIM</h1>
+        <h1>EP NO. EP1849067</h1>
+        <h2>Internet Application Development Assignment #02</h2>
+        <h2>SECTION 'A' EVENING </h2>
+        <p><b>Scroll down after selecting an operation to see the answer</b> </p>
+    </center>
+
+    <div>
+        <h3>Matrices Calculator</h3>
+        <br>
+        <label for="nom">Enter Number of Matrices: </label><input type="number" min="1" max="2" name="" id="nom">
+        <span onclick="numOfMat()">OK</span>
+        <br>
+        <div>
+            <p id="mat"></p>
+            <p id="rowcol"></p>
+            <div id="vals"></div>
+            <div id="matopr"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
